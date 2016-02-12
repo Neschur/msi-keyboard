@@ -2,7 +2,7 @@ This program can change the colors on your MSI steelseries keyboard. The keyboar
 
 Prerequisites (tested on Ubuntu 14.04 only):
 
-Qt 5.2 or later (Ubuntu includes Qt 5.2.1)
+Qt 5.2 or later (qtbase5-dev for Ubuntu)
 libhidapi-dev
 libhidapi-libusb0
 
