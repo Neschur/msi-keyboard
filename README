@@ -13,6 +13,12 @@ make
 
 Make sure to copy 99-msi.rules to /etc/udev/rules.d unless you want to run the program as root. Requires a reboot or maybe just a reload of udev rules to work correctly.
 
+Build deb package:
+
+sudo apt-get install build-essential fakeroot dpkg-dev qtbase5-dev
+switch to debian branch
+dpkg-buildpackage -rfakeroot -b
+
 To use:
 
 Usage: ./msi-keyboard [options]
